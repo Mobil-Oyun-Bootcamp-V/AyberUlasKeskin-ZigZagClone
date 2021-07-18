@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
         deltaPosition = transform.position - _ballPosition.position;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (BallMove.fallControl == false)

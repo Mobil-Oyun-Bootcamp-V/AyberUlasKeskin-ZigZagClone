@@ -34,10 +34,16 @@ public class UIManager : MonoSingleton<UIManager>
     {
         _start.SetActive(false);
         _main.SetActive(false);
+<<<<<<< HEAD
         _gameOverPanel.SetActive(true);
         
     }
    
+=======
+        
+    }
+ 
+>>>>>>> 39f25feb411f2b21c43a024487085b2fe4299f0e
     public void ScoreManager(int score, int bestScore)
     {
         _currentScore.text = $"{score}";
