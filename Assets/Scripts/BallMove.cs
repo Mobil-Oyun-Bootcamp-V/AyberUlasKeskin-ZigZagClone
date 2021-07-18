@@ -12,7 +12,7 @@ public class BallMove : MonoBehaviour
     public float addSpeed;
     public GameObject RetryButton;
     public static bool fallControl;
-    // Start is called before the first frame update
+    
     void Start()
     {
         

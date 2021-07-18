@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundSpawner : MonoBehaviour
 {
     public GameObject _lastGround;
-    // Start is called before the first frame update
+   
     void Start()
     {
         for (int i = 0; i < 15; i++)
@@ -14,7 +14,7 @@ public class GroundSpawner : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
       
