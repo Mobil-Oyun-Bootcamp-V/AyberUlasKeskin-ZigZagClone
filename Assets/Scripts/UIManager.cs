@@ -14,7 +14,7 @@ public class UIManager : MonoSingleton<UIManager>
     [SerializeField] private GameObject _main;
     [SerializeField] private GameObject _start;
     
-    // Start is called before the first frame update
+   
 
     public void GameStart()
     {
@@ -34,14 +34,9 @@ public class UIManager : MonoSingleton<UIManager>
     {
         _start.SetActive(false);
         _main.SetActive(false);
-        _gameOverPanel.SetActive(true);
-        //StartCoroutine(PanelRoutine(_gameOverPanel));
+        
     }
-   // IEnumerator PanelRoutine(GameObject obj)
-   // {
-     //   yield return new WaitForSeconds(1);
-    //    obj.SetActive(true);
-   // }
+ 
     public void ScoreManager(int score, int bestScore)
     {
         _currentScore.text = $"{score}";
